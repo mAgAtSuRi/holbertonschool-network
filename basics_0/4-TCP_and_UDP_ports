@@ -1,4 +1,4 @@
 #!/bin/bash
-# This script displays listening ports.
+# This script displays listening ports with PID and program name.
 
-sudo netstat -nlp
+sudo ss -tulnp
